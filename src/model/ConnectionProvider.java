@@ -14,7 +14,7 @@ public class ConnectionProvider {
         try{
         Class.forName("com.mysql.cj.jdbc.Driver");
         //com.mysql.cj.jdbc.Driver   for Mac
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/usainsprint?useSSL=false","root","111111");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/usainsprint?useSSL=false","root","dx1107527854");
         return con;
         }
         
